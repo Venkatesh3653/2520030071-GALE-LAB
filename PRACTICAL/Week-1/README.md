@@ -1,42 +1,21 @@
 # Week 1: Introduction to Gemini AI
 
-This practical demonstrates how to make a basic call to Google's Gemini API using the `google-genai` Python SDK.
+This folder contains the practical tasks completed during Week 1 of the GALE Lab course.
+
+## What This Week Covers
+
+The exercises in this folder focus on building a basic understanding of Python programming and applying simple concepts through practical examples.
 
 ## Files
 
-- `main.py` - Loads an API key and asks Gemini to explain Artificial Intelligence in simple words.
-- `requirements.txt` - Python packages required for this practical.
+The contents of this folder include Python programs created as part of the weekly assignments.
 
-## Prerequisites
+## How to Run
 
-- Python 3.10 or later
-- A Google Gemini API key
+1. Make sure Python is installed on your computer.
+2. Open a terminal or command prompt.
+3. Navigate to this folder.
+4. Run a Python file using:
 
-## Setup
-
-1. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Create a `.env` file in this directory:
-
-   ```dotenv
-   GEMINI_API_KEY=your_api_key_here
-   ```
-
-3. Run the script:
-
-   ```bash
-   python main.py
-   ```
-
-## Output
-
-The program prints Gemini's explanation of Artificial Intelligence in simple words.
-
-## Security
-
-- Never commit or share your API key.
-- Add `.env` to `.gitignore` if it is not already ignored.
+```bash
+python filename.py
